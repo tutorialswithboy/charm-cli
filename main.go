@@ -18,6 +18,8 @@ const (
 
 var helpStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("#626262")).Render
 
+
+
 func main() {
 	m := model{
 		progress: progress.New(progress.WithDefaultGradient()),
